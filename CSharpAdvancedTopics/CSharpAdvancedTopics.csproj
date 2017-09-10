@@ -47,6 +47,10 @@
     <Compile Include="Delegates\PhotoFilters.cs" />
     <Compile Include="Delegates\PhotoProcessor.cs" />
     <Compile Include="Delegates\UnderstandingDelegates.cs" />
+    <Compile Include="EventHandling\MailService.cs" />
+    <Compile Include="EventHandling\UnderstandingEventHandling.cs" />
+    <Compile Include="EventHandling\Video.cs" />
+    <Compile Include="EventHandling\VideoEncoder.cs" />
     <Compile Include="LambdaExpressions\Book.cs" />
     <Compile Include="LambdaExpressions\BookRepository.cs" />
     <Compile Include="LambdaExpressions\UnderstandingLambdaExpressions.cs" />

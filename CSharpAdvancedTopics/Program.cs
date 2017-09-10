@@ -1,5 +1,6 @@
 ﻿using CSharpAdvancedTopics.Delegates;
 using CSharpAdvancedTopics.LambdaExpressions;
+using CSharpAdvancedTopics.EventHandling;
 
 namespace CSharpAdvancedTopics
 {
@@ -8,7 +9,8 @@ namespace CSharpAdvancedTopics
         static void Main(string[] args)
         {
             //new UnderstandingDelegates();
-            new UnderstandingLambdaExpressions();
+            //new UnderstandingLambdaExpressions();
+            new UnderstandingEventHandling();
         }
     }
 }
