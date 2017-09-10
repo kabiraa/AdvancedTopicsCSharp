@@ -8,8 +8,8 @@ namespace CSharpAdvancedTopics.EventHandling
 {
     public class MailService
     {
-        public void OnVideoEncoded(object source, EventArgs args) {
-            Console.WriteLine("Sending mail...");
+        public void OnVideoEncoded(object source, VideoEncoderEventArgs args) {
+            Console.WriteLine("Sending mail... " + args.Video.Title);
         }
     }
 }
